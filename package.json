@@ -1,0 +1,32 @@
+{
+  "name": "cadastroapp",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^7.0.3",
+    "axios": "^1.7.7",
+    "expo": "~52.0.7",
+    "expo-status-bar": "~2.0.0",
+    "express": "^4.21.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.7",
+    "react": "18.3.1",
+    "react-native": "0.76.2",
+    "react-native-gesture-handler": "^2.21.0",
+    "react-native-reanimated": "^3.16.1",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-screens": "^4.1.0",
+    "react-navigation": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
